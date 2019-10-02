@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.proteintracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:5:5-32:19
+12        android:allowBackup="true"
+12-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\putus\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.proteintracker.DaftarTemanActivity" />
+21-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:12:9-66
+21-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:12:19-54
+22        <activity android:name="com.example.proteintracker.RecyclerViewActivity" />
+22-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:13:9-58
+22-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:13:19-55
+23        <activity android:name="com.example.proteintracker.tambah" />
+23-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:14:9-44
+23-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:14:19-41
+24        <activity android:name="com.example.proteintracker.edit" />
+24-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:15:9-42
+24-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:15:19-39
+25        <activity android:name="com.example.proteintracker.KelolaMahasiswa" />
+25-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:16:9-53
+25-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:16:19-50
+26        <activity android:name="com.example.proteintracker.MahasiswaActivity" />
+26-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:17:9-55
+26-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:17:19-52
+27        <activity android:name="com.example.proteintracker.ProteinTrackerApp" />
+27-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:18:9-55
+27-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:18:19-52
+28        <activity android:name="com.example.proteintracker.Table" />
+28-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:19:9-43
+28-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:19:19-40
+29        <activity android:name="com.example.proteintracker.List" />
+29-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:20:9-42
+29-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:20:19-39
+30        <activity android:name="com.example.proteintracker.Main3FragmentActivity" />
+30-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:21:9-59
+30-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:21:19-56
+31        <activity android:name="com.example.proteintracker.Text" />
+31-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:22:9-42
+31-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:22:19-39
+32        <activity android:name="com.example.proteintracker.Test" />
+32-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:23:9-42
+32-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:23:19-39
+33        <activity android:name="com.example.proteintracker.HelpActivity" />
+33-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:24:9-50
+33-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:24:19-47
+34        <activity android:name="com.example.proteintracker.MainActivity" >
+34-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:25:9-31:20
+34-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:25:19-47
+35            <intent-filter>
+35-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:26:13-30:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:27:17-69
+36-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:27:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:29:17-77
+38-->X:\SEMESTER5\ProteinTracker\app\src\main\AndroidManifest.xml:29:27-74
+39            </intent-filter>
+40        </activity>
+41    </application>
+42
+43</manifest>
